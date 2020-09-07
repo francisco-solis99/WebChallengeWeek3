@@ -4,27 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <title>Frontend Mentor | Four card feature section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
+    <title>Frontend Mentor | Four card feature article</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     </style>
   </head>
   <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+    <main class="hero">
+      <header class="header">
+        <div class="header__wrapper">
+          <h2 class="header__title">Reliable, efficent delivery</h2>
+          <h1 class="header__owner">Powered by Technology</h1>
+          <p class="header__info">Our Artificial Intelligende powered tools use millions of project data points to ensure that your project is successful</p>
+        </div>
+      </header>
+  
+      <section class="cards">
+  
+        <article class="card__container">
+          <div class="card__info">
+            <h3 class="card__title">Supervisor</h3>
+            <p class="card__description">Monitors activity to identify project roadblocks</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="/images/icon-supervisor.svg" alt="Home icon" />
+          </figure>
+  
+        </article>
+  
+        <article class="card__container">
+          <div class="card__info">
+            <h3 class="card__title">Team Builder</h3>
+            <p class="card__description">Scans our talent network to create the optimal team for your project</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="/images/icon-team-builder.svg" alt="Spotlight icon" />
+          </figure>
+  
+        </article>
+  
+        <article class="card__container">
+          <div class="card__info">
+            <h3 class="card__title">Karma</h3>
+            <p class="card__description">Regularly evaluates or talent to ensure quality</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="/images/icon-karma.svg" alt="Spotlight icon" />
+          </figure>
+  
+        </article>
+        
+        <article class="card__container">
+          <div class="card__info">
+            <h3 class="card__title">Calculator</h3>
+            <p class="card__description">Uses data from past projects to provide better delivery estimates</p>
+          </div>
+          <figure class="card__image-wrapper">
+            <img class="card__image" src="/images/icon-calculator.svg" alt="Calculator icon" />
+          </figure>
+  
+        </article>
+      </section>
+    </main>
   </body>
 </html>
